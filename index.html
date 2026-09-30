@@ -30,7 +30,7 @@
   <meta property="og:site_name" content="ONETAKE MEDIA SOCHI" />
   <meta property="og:image" content="https://images.unsplash.com/photo-1574717024653-61fd2cf4d44d?w=1200&auto=format&fit=crop&q=80" />
 
-  <!-- МИКРОРАЗМЕТКА SCHEMA.ORG (JSON-LD) -->
+  <!-- МИКРОРАЗМЕТКА SCHEMA.ORG (JSON-LD) С РАСШИРЕННЫМ FAQ -->
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
@@ -64,15 +64,71 @@
             "name": "Где находится ваш офис в Сочи?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "Наш офис расположен по адресу: г. Сочи, ул. Яна Фабрициуса, 57 Б. Здесь мы проводим предподготовку, пишем сценарии и монтируем ролики."
+              "text": "Наш офис расположен по адресу: г. Сочи, ул. Яна Фабрициуса, 57 Б. Здесь мы проводим встречи с клиентами, пишем сценарии и монтируем контент."
             }
           },
           {
             "@type": "Question",
-            "name": "С какими нишами в Сочи вы работаете чаще всего?",
+            "name": "В каких районах побережья вы проводите съемки?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "Основные направления: недвижимость и застройщики, отели и спа, премиум-рестораны, прокат авто и яхт, а также личный бренд экспертов и инфобизнес."
+              "text": "Мы выезжаем со всем комплектом оборудования по всему Большому Сочи: Центральный Сочи, Адлер, Сириус, Красная Поляна, Эсто-Садок, а также на яхты и горные локации."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Сколько времени требуется от меня на съемку?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Всего 4–5 часов один раз в месяц. Все сценарии, раскадровку, суфлер и свет мы готовим заранее, экономя ваше время."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "А если я боюсь камеры или не умею свободно говорить на видео?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Это нормальный страх 90% наших клиентов. На площадке работает режиссер, который ставит интонацию, мимику и позы. Мы также используем мобильный телесуфлер — вам не придется учить текст наизусть."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Как быстро вы отдаете готовые ролики после съемочного дня?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Первые 3–5 готовых роликов с монтажом и субтитрами вы получаете уже через 3–4 дня после съемок, а весь пакет на месяц — в течение 7–10 рабочих дней."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Как ваши ролики превращаются в реальные заявки и продажи, а не просто просмотры?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Мы внедряем смысловые воронки: в конце каждого ролика дается четкий призыв к действию (CTA), ведущий зрителя за полезным материалом или спецпредложением в Direct или чат-бот."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Входит ли аэросъемка с дрона в стоимость?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Да, для проектов в сфере недвижимости, отелей, автопроката и яхтинга мы используем квадрокоптер 4K для масштабных кадров побережья и гор."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Что происходит, если в день съемки испортилась погода?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Погода в Сочи переменчива, поэтому мы всегда держим в резерве альтернативные интерьерные локации или бесплатно переносим съемку на ближайший солнечный день."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Работаете ли вы официально по договору и с юрлицами?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Да, мы работаем официально по договору как с ИП и ООО (по безналичному расчету с закрывающими документами), так и с физическими лицами."
             }
           }
         ]
@@ -121,13 +177,11 @@
   <!-- ================= ХЕДЕР С БУРГЕРОМ ================= -->
   <header class="fixed top-0 left-0 w-full z-50 bg-dark/90 backdrop-blur-md border-b border-cardBorder">
     <div class="max-w-7xl mx-auto px-5 h-20 flex items-center justify-between">
-      <!-- Логотип -->
       <a href="#" class="font-display font-black text-lg sm:text-xl tracking-wider flex items-center gap-2">
         <span class="w-3 h-3 rounded-full bg-lime-400 animate-pulse"></span>
         ONETAKE<span class="text-lime-400">.MEDIA</span>
       </a>
 
-      <!-- Меню Desktop -->
       <nav class="hidden md:flex items-center gap-7 text-sm font-medium text-slate-400">
         <a href="#cases" class="hover:text-lime-400 transition">Кейсы</a>
         <a href="#services" class="hover:text-lime-400 transition">Услуги</a>
@@ -136,7 +190,6 @@
         <a href="#contact" class="hover:text-lime-400 transition">Офис</a>
       </nav>
 
-      <!-- CTA + Бургер -->
       <div class="flex items-center gap-3">
         <a href="#contact" class="hidden sm:inline-flex px-5 py-2.5 rounded-full bg-lime-400 text-black font-semibold text-xs uppercase tracking-wider hover:bg-lime-500 transition">
           Получить 3 идеи
@@ -153,7 +206,7 @@
       <a href="#cases" onclick="toggleMobileMenu()" class="block text-base font-medium text-slate-300 hover:text-lime-400">Кейсы по нишам</a>
       <a href="#services" onclick="toggleMobileMenu()" class="block text-base font-medium text-slate-300 hover:text-lime-400">Услуги</a>
       <a href="#pricing" onclick="toggleMobileMenu()" class="block text-base font-medium text-slate-300 hover:text-lime-400">Тарифы</a>
-      <a href="#faq" onclick="toggleMobileMenu()" class="block text-base font-medium text-slate-300 hover:text-lime-400">FAQ</a>
+      <a href="#faq" onclick="toggleMobileMenu()" class="block text-base font-medium text-slate-300 hover:text-lime-400">FAQ (Вопросы и ответы)</a>
       <a href="#contact" onclick="toggleMobileMenu()" class="block text-base font-medium text-lime-400">Офис на Яна Фабрициуса, 57Б</a>
     </div>
   </header>
@@ -210,7 +263,7 @@
       </div>
     </section>
 
-    <!-- ================= КЕЙСЫ (С КРАСИВЫМИ КАРТИНКАМИ) ================= -->
+    <!-- ================= КЕЙСЫ ================= -->
     <section id="cases" class="py-24 bg-card/40 border-y border-cardBorder">
       <div class="max-w-7xl mx-auto px-5">
         <div class="flex flex-col md:flex-row md:items-end justify-between mb-16">
@@ -229,7 +282,6 @@
               <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=800&auto=format&fit=crop&q=80" alt="Недвижимость Сочи Вилла" class="w-full h-full object-cover group-hover:scale-105 transition duration-500" />
               <div class="absolute inset-0 bg-gradient-to-t from-black/90 via-black/20 to-black/30"></div>
               
-              <!-- Значок Play -->
               <div class="absolute inset-0 flex items-center justify-center">
                 <div class="w-14 h-14 rounded-full bg-lime-400/90 text-black flex items-center justify-center shadow-lg group-hover:scale-110 transition">
                   <i data-lucide="play" class="w-6 h-6 fill-black ml-1"></i>
@@ -496,43 +548,116 @@
       </div>
     </section>
 
-    <!-- ================= FAQ ================= -->
+    <!-- ================= РАСШИРЕННЫЙ FAQ (9 ВОПРОСОВ) ================= -->
     <section id="faq" class="py-24">
-      <div class="max-w-3xl mx-auto px-5">
-        <div class="text-center mb-12">
-          <h2 class="font-display text-3xl font-bold uppercase">Частые вопросы</h2>
+      <div class="max-w-4xl mx-auto px-5">
+        <div class="text-center mb-16">
+          <span class="text-lime-400 font-semibold text-xs tracking-wider uppercase">Ответы на главные вопросы</span>
+          <h2 class="font-display text-2xl sm:text-4xl font-bold uppercase mt-2">Часто задаваемые вопросы</h2>
+          <p class="text-slate-400 text-sm mt-3">Все, что нужно знать о процессе съемок и продвижения в Сочи</p>
         </div>
 
         <div class="space-y-4">
-          <div class="bg-card border border-cardBorder rounded-2xl p-6 cursor-pointer" onclick="toggleFaq(this)">
+          
+          <!-- Вопрос 1 -->
+          <div class="bg-card border border-cardBorder rounded-2xl p-6 cursor-pointer hover:border-lime-400/40 transition" onclick="toggleFaq(this)">
             <div class="flex items-center justify-between font-semibold text-base sm:text-lg">
               <span>Где находится ваш офис в Сочи?</span>
               <i data-lucide="chevron-down" class="w-5 h-5 text-lime-400 transition-transform duration-300"></i>
             </div>
             <p class="faq-answer text-slate-400 text-sm mt-3 hidden leading-relaxed">
-              Наш продакшн-офис находится по адресу: <b>г. Сочи, ул. Яна Фабрициуса, 57 Б</b>. Здесь мы проводим встречи с клиентами, обсуждаем стратегии и проводим предподготовку к съемкам.
+              Наш продакшн-офис находится по адресу: <b>г. Сочи, ул. Яна Фабрициуса, 57 Б</b>. Здесь мы проводим встречи с клиентами, обсуждаем стратегии, пишем сценарии и монтируем контент. Личные встречи проходят по предварительной договоренности.
             </p>
           </div>
 
-          <div class="bg-card border border-cardBorder rounded-2xl p-6 cursor-pointer" onclick="toggleFaq(this)">
+          <!-- Вопрос 2 -->
+          <div class="bg-card border border-cardBorder rounded-2xl p-6 cursor-pointer hover:border-lime-400/40 transition" onclick="toggleFaq(this)">
             <div class="flex items-center justify-between font-semibold text-base sm:text-lg">
               <span>В каких районах побережья вы проводите съемки?</span>
               <i data-lucide="chevron-down" class="w-5 h-5 text-lime-400 transition-transform duration-300"></i>
             </div>
             <p class="faq-answer text-slate-400 text-sm mt-3 hidden leading-relaxed">
-              Мы выезжаем со всем комплектом оборудования по всему Большому Сочи: Центральный Сочи, Адлер, Сириус, Красная Поляна, Эсто-Садок, а также на яхты и горные локации.
+              Мы выезжаем со всем комплектом оборудования по всему Большому Сочи: Центральный Сочи, Хоста, Мацеста, Адлер, Сириус, Красная Поляна, Эсто-Садок, а также на яхты и горные труднодоступные локации.
             </p>
           </div>
 
-          <div class="bg-card border border-cardBorder rounded-2xl p-6 cursor-pointer" onclick="toggleFaq(this)">
+          <!-- Вопрос 3 -->
+          <div class="bg-card border border-cardBorder rounded-2xl p-6 cursor-pointer hover:border-lime-400/40 transition" onclick="toggleFaq(this)">
             <div class="flex items-center justify-between font-semibold text-base sm:text-lg">
               <span>Сколько времени нужно от меня на съемку?</span>
               <i data-lucide="chevron-down" class="w-5 h-5 text-lime-400 transition-transform duration-300"></i>
             </div>
             <p class="faq-answer text-slate-400 text-sm mt-3 hidden leading-relaxed">
-              Всего 4–5 часов один раз в месяц. Все сценарии, раскадровку, суфлер и реквизит мы готовим заранее.
+              Всего 4–5 часов один раз в месяц. Все подготовительные этапы (анализ ниши, раскадровки, сценарии, свет, петлички и суфлер) мы берем на себя. Вы приезжаете на готовую площадку.
             </p>
           </div>
+
+          <!-- Вопрос 4 -->
+          <div class="bg-card border border-cardBorder rounded-2xl p-6 cursor-pointer hover:border-lime-400/40 transition" onclick="toggleFaq(this)">
+            <div class="flex items-center justify-between font-semibold text-base sm:text-lg">
+              <span>А если я боюсь камеры или не умею свободно говорить на видео?</span>
+              <i data-lucide="chevron-down" class="w-5 h-5 text-lime-400 transition-transform duration-300"></i>
+            </div>
+            <p class="faq-answer text-slate-400 text-sm mt-3 hidden leading-relaxed">
+              Это нормальный страх 90% экспертов и владельцев бизнеса. На площадке всегда работает режиссер, который помогает расслабиться, ставит голос, интонацию и позы. Мы также используем телесуфлер — текст бежит перед глазами, учить ничего не нужно.
+            </p>
+          </div>
+
+          <!-- Вопрос 5 -->
+          <div class="bg-card border border-cardBorder rounded-2xl p-6 cursor-pointer hover:border-lime-400/40 transition" onclick="toggleFaq(this)">
+            <div class="flex items-center justify-between font-semibold text-base sm:text-lg">
+              <span>Как быстро мы получаем готовые ролики после съемочного дня?</span>
+              <i data-lucide="chevron-down" class="w-5 h-5 text-lime-400 transition-transform duration-300"></i>
+            </div>
+            <p class="faq-answer text-slate-400 text-sm mt-3 hidden leading-relaxed">
+              Первые 3–5 готовых роликов с динамичным монтажом, цветокоррекцией и субтитрами вы получаете уже через 3–4 дня после съемок. Весь месячный пул роликов сдается в течение 7–10 рабочих дней.
+            </p>
+          </div>
+
+          <!-- Вопрос 6 -->
+          <div class="bg-card border border-cardBorder rounded-2xl p-6 cursor-pointer hover:border-lime-400/40 transition" onclick="toggleFaq(this)">
+            <div class="flex items-center justify-between font-semibold text-base sm:text-lg">
+              <span>Как видео конвертируются в реальные продажи, а не просто просмотры?</span>
+              <i data-lucide="chevron-down" class="w-5 h-5 text-lime-400 transition-transform duration-300"></i>
+            </div>
+            <p class="faq-answer text-slate-400 text-sm mt-3 hidden leading-relaxed">
+              Мы строим контент по маркетинговой воронке. В каждом ролике используется цепляющий хук в первые 3 секунды, раскрытие ценности продукта и четкий призыв (CTA): забрать каталог вилл, получить спецпредложение на бронь номера или прийти на тест-драйв через кодовое слово в Direct.
+            </p>
+          </div>
+
+          <!-- Вопрос 7 -->
+          <div class="bg-card border border-cardBorder rounded-2xl p-6 cursor-pointer hover:border-lime-400/40 transition" onclick="toggleFaq(this)">
+            <div class="flex items-center justify-between font-semibold text-base sm:text-lg">
+              <span>Входит ли аэросъемка с квадрокоптера в стоимость?</span>
+              <i data-lucide="chevron-down" class="w-5 h-5 text-lime-400 transition-transform duration-300"></i>
+            </div>
+            <p class="faq-answer text-slate-400 text-sm mt-3 hidden leading-relaxed">
+              Да, для проектов в сфере недвижимости, застройщиков, отелей на Красной Поляне, яхт и автопроката мы используем дрон для съемки масштабных панорам 4K.
+            </p>
+          </div>
+
+          <!-- Вопрос 8 -->
+          <div class="bg-card border border-cardBorder rounded-2xl p-6 cursor-pointer hover:border-lime-400/40 transition" onclick="toggleFaq(this)">
+            <div class="flex items-center justify-between font-semibold text-base sm:text-lg">
+              <span>Что делать, если в назначенный день съемки пошел дождь?</span>
+              <i data-lucide="chevron-down" class="w-5 h-5 text-lime-400 transition-transform duration-300"></i>
+            </div>
+            <p class="faq-answer text-slate-400 text-sm mt-3 hidden leading-relaxed">
+              Мы всегда отслеживаем прогноз погоды в Сочи и держим в запасе резервные интерьерные локации (студии, апартаменты, рестораны) либо бесплатно переносим съемку на ближайший удобный ясный день.
+            </p>
+          </div>
+
+          <!-- Вопрос 9 -->
+          <div class="bg-card border border-cardBorder rounded-2xl p-6 cursor-pointer hover:border-lime-400/40 transition" onclick="toggleFaq(this)">
+            <div class="flex items-center justify-between font-semibold text-base sm:text-lg">
+              <span>Работаете ли вы официально по договору с юрлицами?</span>
+              <i data-lucide="chevron-down" class="w-5 h-5 text-lime-400 transition-transform duration-300"></i>
+            </div>
+            <p class="faq-answer text-slate-400 text-sm mt-3 hidden leading-relaxed">
+              Да, мы работаем официально по договору. Принимаем оплату по безналичному расчету от ИП и юридических лиц с предоставлением всех закрывающих актов и счетов.
+            </p>
+          </div>
+
         </div>
       </div>
     </section>
@@ -584,7 +709,7 @@
     </section>
   </main>
 
-  <!-- ================= ПОДВАЛ (БЕЗ СОЦСЕТЕЙ) ================= -->
+  <!-- ================= ПОДВАЛ ================= -->
   <footer class="py-12 border-t border-cardBorder bg-dark text-slate-500 text-xs">
     <div class="max-w-7xl mx-auto px-5 flex flex-col md:flex-row items-center justify-between gap-6 text-center md:text-left">
       <div>
